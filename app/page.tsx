@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { MainNavigation } from "@/components/main-navigation"
-import { LanguageToggle } from "@/components/language-toggle"
+// import { LanguageToggle } from "@/components/language-toggle" // Commented out for testing
 // import { PixelParticles } from "@/components/pixel-particles" // Commented out for testing
 // import { GameUIElements } from "@/components/game-ui-elements"
 // import { CharactersContent } from "@/components/content/characters-content"
@@ -66,7 +66,7 @@ export default function HomePage() {
         <header className="flex justify-between items-center mb-8">
           <h1 className="font-pixel text-3xl md:text-4xl text-stardew-green">Stardew Valley Guide</h1>
           <div className="flex items-center gap-4">
-            <LanguageToggle />
+            {/* <LanguageToggle /> */} {/* Commented out for testing */}
           </div>
         </header>
 

@@ -25,7 +25,7 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <div className="stardew-theme">
-          <DynamicBackgroundAnimations />
+          {/* <DynamicBackgroundAnimations /> */} {/* Commented out for testing */}
           {children}
         </div>
       </body>
