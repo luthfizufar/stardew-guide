@@ -1,8 +1,7 @@
 import type React from "react"
 import "@/app/globals.css"
-// import "@/app/dynamic-animations.css"; // Import will be moved to globals.css
 import { Inter } from "next/font/google"
-// import { DynamicBackgroundAnimations } from "@/components/DynamicBackgroundAnimations"; // Import new component
+import { DynamicBackgroundAnimations } from "@/components/DynamicBackgroundAnimations"; // Import new component
 import type { Metadata } from "next"
 
 const inter = Inter({ subsets: ["latin"] })
@@ -26,7 +25,7 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <div className="stardew-theme">
-          {/* <DynamicBackgroundAnimations /> */}
+          <DynamicBackgroundAnimations />
           {children}
         </div>
       </body>
