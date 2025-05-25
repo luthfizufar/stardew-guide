@@ -10,7 +10,6 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Stardew Valley Guide",
   description: "A comprehensive guide for Stardew Valley players",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
