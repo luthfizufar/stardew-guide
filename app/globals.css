@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "./simple-animations.css";
+/* @import "./simple-animations.css"; */ /* Commented out for testing */
 @import "./seasonal-animations.css";
 @import "./section-decorations.css";
 @import "./dynamic-animations.css"; /* Added import for dynamic animations */
