@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { MainNavigation } from "@/components/main-navigation"
 import { LanguageToggle } from "@/components/language-toggle"
-import { PixelParticles } from "@/components/pixel-particles"
+// import { PixelParticles } from "@/components/pixel-particles" // Commented out for testing
 // import { GameUIElements } from "@/components/game-ui-elements"
 // import { CharactersContent } from "@/components/content/characters-content"
 // import { MarriageContent } from "@/components/content/marriage-content"
@@ -59,7 +59,7 @@ export default function HomePage() {
   return (
     <div className="relative min-h-screen overflow-hidden bg-stardew-bg">
       <div className="simple-background"></div>
-      <PixelParticles />
+      {/* <PixelParticles /> */} {/* Commented out for testing */}
       {/* <GameUIElements /> */}
 
       <div className="relative z-10 container mx-auto px-4 py-8">
