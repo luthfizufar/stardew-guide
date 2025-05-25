@@ -12,7 +12,7 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   typescript: {
-    // ignoreBuildErrors: true, // Temporarily removed for debugging
+    ignoreBuildErrors: true,
   }
 }
 
