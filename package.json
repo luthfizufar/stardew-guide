@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "download": "^3.3.0"
+    "download": "^3.3.0",
+    "next": "15.3.2"
   }
 }
