@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { MainNavigation } from "@/components/main-navigation"
+// import { MainNavigation } from "@/components/main-navigation" // Commented out for testing
 // import { LanguageToggle } from "@/components/language-toggle" // Commented out for testing
 // import { PixelParticles } from "@/components/pixel-particles" // Commented out for testing
 // import { GameUIElements } from "@/components/game-ui-elements"

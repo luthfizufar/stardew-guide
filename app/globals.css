@@ -4,7 +4,7 @@
 /* @import "./simple-animations.css"; */ /* Commented out for testing */
 /* @import "./seasonal-animations.css"; */ /* Commented out for testing */
 /* @import "./section-decorations.css"; */ /* Commented out for testing */
-@import "./dynamic-animations.css"; /* Added import for dynamic animations */
+/* @import "./dynamic-animations.css"; */ /* Added import for dynamic animations */ /* Commented out for testing */
 
 :root {
   --stardew-bg: #fff2c8;
